@@ -4,3 +4,5 @@ my_apple  = "Apple"; //variable initialization
 var my_name = "Neha"; //variable declaration & intialization on the same line
 console.log(my_name);
 console.log(my_apple);
+my_apple="200";
+console.log(my_apple);
