@@ -1,0 +1,15 @@
+var myFullName;
+console.log(myFullName);
+myFullName = "Neha Bagal";
+console.log(myFullName);
+myFullName = "Neha Lahu Bagal";
+console.log(myFullName);
+var myLove = "I Love Only JS";
+console.log(myLove);
+var firstName = "Neha", lastName = "Bagal", age = 30, address = "Pune", pin_code = 412207, gender = "Female", is_married = "Yes";
+console.log(firstName, lastName, age, address, pin_code, gender, is_married);
+//var last_name = "Bagal";
+//var mobile = 9999999999;
+//var email = "abc@gmail.com";
+//var country = "India";
+//console.log(first_name, last_name, mobile, email, country);
