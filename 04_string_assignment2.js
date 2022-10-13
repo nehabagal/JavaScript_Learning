@@ -1,0 +1,32 @@
+var givenString = "    Hey you are doing good, keep it up    ";
+console.log("==============================1.==============================");
+console.log(givenString);
+console.log("==============================2.==============================");
+var streamLength = givenString.length;
+console.log(`Length of the String is ${streamLength}`);
+console.log("==============================3.==============================");
+var trimmedString = givenString.trim();
+console.log(`Trimmed String with leading and trailing extra spaces is ${trimmedString}`);
+console.log("==============================4.==============================");
+var extraSpaces = streamLength - trimmedString.length;
+console.log(`Count of Extra Spaces removed in Step 3 are ${extraSpaces} `);
+console.log("==============================5.==============================");
+var firstChar = trimmedString.charAt(0);
+var lastChar = trimmedString.charAt(33);
+console.log(`First character after trim is ${firstChar} and Last character after trim is ${lastChar}}`);
+console.log("==============================6.==============================");
+var splittedString = trimmedString.split(" ");
+console.log(splittedString);
+console.log(`Total words available in stream after step 3 are ${splittedString.length} `);
+console.log("==============================7.==============================");
+//console.log(trimmedString.indexOf("good"));
+console.log(`Index of word good is ${trimmedString.indexOf("good")}`);
+console.log("==============================8.==============================");
+var resultStr = trimmedString.substring(22);
+console.log(`Substring starting from index 22 using substring is ${resultStr}`);
+var resultStr1 = trimmedString.slice(22);
+console.log(`Substring starting from index 22 using slice is ${resultStr1}`);
+console.log("==============================9.==============================")
+console.log(`Is there any string ends with word up: ${trimmedString.endsWith("up")}`);
+console.log("=============================10.==============================")
+console.log(`Is there any string starts with word Hey: ${trimmedString.startsWith("Hey")}`);
