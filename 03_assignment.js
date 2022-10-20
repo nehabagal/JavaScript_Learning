@@ -29,7 +29,7 @@ console.log("-------------------------------");
 
 console.log("Swapping Values");
 var temp;
-var swap = swap_values(arg1, arg2){
+var swap = function(arg1, arg2){
     console.log("Values before Swap");
     console.log(arg1, arg2);
     temp = arg1;
@@ -41,8 +41,8 @@ var swap = swap_values(arg1, arg2){
 swap(1000, 2000);
 
 console.log("-------------------------------");
-var abc = "JavaScript the most popular language";
-function(abc){
-var length = abc.length();
+function lengthofStr(arg1){
+var length = arg1.length;
 console.log(length);
 }
+lengthofStr("My Name is Neha");

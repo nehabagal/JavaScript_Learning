@@ -1,4 +1,4 @@
-var gradeSystem = function(score){
+function gradeSystem(score){
     if(score<35 && score!=" "  && score>0) {
         console.log("You are failed");
     }
