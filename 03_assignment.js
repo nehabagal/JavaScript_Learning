@@ -39,10 +39,19 @@ var swap = function(arg1, arg2){
     console.log(arg1, arg2);
 }
 swap(1000, 2000);
+swap("Virat" , "Anushka");
 
 console.log("-------------------------------");
-function lengthofStr(arg1){
+var strOperations = function(arg1){
 var length = arg1.length;
-console.log(length);
+console.log(`Total characters available in the string: ${length}`);
+var index = arg1.indexOf('S');
+console.log(`Index of character 'S': ${index}`);
+var indexstr = arg1.indexOf('lang');
+console.log(`Index of string 'lang': ${indexstr}`);
+var lastChar = arg1.charAt(length-1);
+console.log(`Last character in string: ${lastChar}`);
+var thirdChar = arg1.charAt(length-3);
+console.log(`Last character in string: ${thirdChar}`);
 }
-lengthofStr("My Name is Neha");
+strOperations("JavaScript the most popular language");
