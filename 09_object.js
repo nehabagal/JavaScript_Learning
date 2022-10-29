@@ -26,6 +26,10 @@ let person = {
     }
 }
 
+console.log("=====in operator=======");
+var isAvailable = "fullName" in person;
+console.log(isAvailable);
+
 let personalDetails = person.details();
 console.log(personalDetails);
 person.eat();
